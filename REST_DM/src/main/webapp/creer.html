@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Créer une personne</title>
+</head>
+</head>
+<body>
+	 <div style="padding-left:50px;font-family:monospace;">
+        <h2>Create Prof</h2>
+        <form method="POST" action="http://localhost:8080/REST_DM/rest/api/perso/post" >
+            <div style="width: 100px; text-align:left;">
+                <div style="padding:15px;">
+                    id: <input name="id" />
+                </div>
+                <div style="padding:10px;"> nom: <input name="nom" />
+                </div>
+                <div style="padding:10px;">
+                    prenom: <input name="prenom" />
+                </div>
+                <div style="padding:10px;">
+                    date_naissance: <input name="date_naissance" />
+                </div>
+                <div style="padding:20px;text-align:center">
+                    <input type="submit" value="Submit" />
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
